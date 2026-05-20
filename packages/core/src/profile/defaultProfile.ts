@@ -1,0 +1,25 @@
+import type { AutofillProfile } from "../types";
+
+export const defaultProfile: AutofillProfile = {
+  full_name: "Sukesh Acharya",
+  first_name: "Sukesh",
+  last_name: "Acharya",
+  email: "sukesh@example.com",
+  phone: "+91 90000 00000",
+  linkedin: "https://linkedin.com/in/sukesh",
+  github: "https://github.com/sukesh",
+  portfolio: "https://sukesh.dev",
+  resume: "/files/resume.pdf",
+  current_company: "Independent",
+  current_role: "Full Stack Engineer",
+  expected_salary: "Open to discuss",
+  experience: "4 years",
+  skills: ["React", "TypeScript", "Node.js", "Chrome Extensions"],
+  college: "Example University",
+  degree: "B.Tech Computer Science",
+  cgpa: "8.6",
+  city: "Bengaluru",
+  country: "India",
+  role: "Full Stack Developer",
+  cover_letter: "I am excited to apply and would love to discuss how my experience fits.",
+};

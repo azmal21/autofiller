@@ -1,0 +1,27 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/shared" },
+    { "path": "./packages/workers" },
+    { "path": "./packages/ui" },
+    { "path": "./apps/web-test" },
+    { "path": "./apps/extension" }
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "baseUrl": ".",
+    "paths": {
+      "@autofill/core": ["packages/core/src/index.ts"],
+      "@autofill/core/*": ["packages/core/src/*"],
+      "@autofill/shared": ["packages/shared/src/index.ts"],
+      "@autofill/shared/*": ["packages/shared/src/*"],
+      "@autofill/ui": ["packages/ui/src/index.ts"],
+      "@autofill/ui/*": ["packages/ui/src/*"],
+      "@autofill/workers": ["packages/workers/src/index.ts"],
+      "@autofill/workers/*": ["packages/workers/src/*"]
+    }
+  }
+}

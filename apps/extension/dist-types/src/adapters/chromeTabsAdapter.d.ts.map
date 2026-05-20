@@ -1,0 +1,1 @@
+{"version":3,"file":"chromeTabsAdapter.d.ts","sourceRoot":"","sources":["../../../src/adapters/chromeTabsAdapter.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,UAAU,EAAE,WAAW,EAAE,MAAM,kBAAkB,CAAC;AAEhE,qBAAa,iBAAkB,YAAW,WAAW;IAC7C,YAAY,IAAI,OAAO,CAAC,UAAU,GAAG,IAAI,CAAC;IAK1C,IAAI,IAAI,OAAO,CAAC,UAAU,EAAE,CAAC;CAIpC"}

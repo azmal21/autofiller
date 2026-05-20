@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Autofill Studio",
+  "description": "Shared-architecture autofill workflow debugger and executor.",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Autofill Studio",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["assets/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["storage", "tabs", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"]
+}
